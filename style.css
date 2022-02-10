@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    padding-top: 40px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+main img {
+    width: 100%;
+}
+@media (max-width: 360px) {
+    main{
+        width: 360px;
+        text-align: center;
+        margin: auto;
+    }
+}
