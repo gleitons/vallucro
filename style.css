@@ -1,7 +1,4 @@
-@font-face {
-    font-family: edosz;
-    src: url(/edosz.ttf);
-}
+
 
 *{
     margin: 0;
@@ -21,16 +18,13 @@ main h2{
     margin-top: 50px;
 }
 
-.placaV{
-   
+.placaV{   
     transform: rotate(-20deg);
     border: rgb(206, 0, 0) solid 10px;
-    border-radius: 12px;
-    font-family: edosz;
+    border-radius: 12px;    
     font-size: 50px;
     margin: 10px auto;
     width: 500px;
-
 }
 .colorVermelha {
     color: red;
@@ -41,8 +35,6 @@ main h2{
 @media (max-width: 360px) {
     main{
         width: 360px;
-        text-align: center;
-        margin: auto;
     }
     main h1{
         margin-bottom: 50px;
@@ -51,13 +43,8 @@ main h2{
         margin-top: 50px;
     }
     .placaV{   
-        transform: rotate(-10deg);
-        border: rgb(206, 0, 0) solid 10px;
-        border-radius: 12px;
-        font-family: edosz;
-        font-size: 30px;
-        margin: 10px auto;
-        width: 300px;
-    
+        transform: rotate(-10deg);        
+        font-size: 30px;       
+        width: 300px;    
     }
 }
