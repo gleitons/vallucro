@@ -1,3 +1,8 @@
+@font-face {
+    font-family: edosz;
+    src: url(/edosz.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,13 +14,50 @@ main{
     text-align: center;
     margin: auto;
 }
-main img {
-    width: 100%;
+main h1{
+    margin-bottom: 50px;
+}
+main h2{
+    margin-top: 50px;
+}
+
+.placaV{
+   
+    transform: rotate(-20deg);
+    border: rgb(206, 0, 0) solid 10px;
+    border-radius: 12px;
+    font-family: edosz;
+    font-size: 50px;
+    margin: 10px auto;
+    width: 500px;
+
+}
+.colorVermelha {
+    color: red;
+}
+.placaV > h2, h3{
+    margin: 20px auto;
 }
 @media (max-width: 360px) {
     main{
         width: 360px;
         text-align: center;
         margin: auto;
+    }
+    main h1{
+        margin-bottom: 50px;
+    }
+    main h2{
+        margin-top: 50px;
+    }
+    .placaV{   
+        transform: rotate(-10deg);
+        border: rgb(206, 0, 0) solid 10px;
+        border-radius: 12px;
+        font-family: edosz;
+        font-size: 30px;
+        margin: 10px auto;
+        width: 300px;
+    
     }
 }
